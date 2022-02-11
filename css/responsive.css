@@ -1,0 +1,37 @@
+/* Large Desktop*/
+@media (max-width: 1300px) {
+	.cuscontainer{max-width: 100%;}
+}
+/* portrait tablet to ladscape  */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (max-width: 1199px) {
+	.flexcontent{flex-wrap: wrap;}
+	.flexcontent > .cuscol{width:45%;}
+	.flexcontent .content .size{width: 200px;height: 200px;}
+	.flexcontent > .cuscol{margin: 0;padding:20px;}
+	
+}
+/* portrait tablet to ladscape  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Portrait Phone  */
+@media (max-width: 991px) {
+	.flexcontent > .cuscol{width:auto;}
+	.flexcontent{flex-wrap: wrap;justify-content: center;align-items: center;}
+	.flexcontent .content .size{width: 150px;height: 150px;}
+}
+@media screen and (max-width:479px){
+
+}
+
+@media screen and (max-width:800px){
+
+}
+
+@media screen and (max-width:600px){
+
+}
